@@ -1,6 +1,11 @@
 # DBHelper　mysql图形管理工具
 采用Springboot + Vue开发的mysql可视化管理工具，使用它可以用图形界面完成增删查改等常用的数据库操作。
 
+## 软件版本  
+> Springboot 2.1.6  
+
+> Vue 2.6.10
+
 ## 项目文件目录结构
 ```
 --|--dbhelper(后端文件)--src--|--main--|--java // java代码
@@ -16,7 +21,7 @@
 有两种使用方式，一种是直接运行jar包，另一种是使用idea或者eclipse运行dbhelper文件夹下的后端项目。
 
 ### 直接使用
-下载dbhelper-1.0.0.jar,在jar包所在的目录下运行
+下载dbhelper-1.0.0.jar,在jar包所在的目录下运行(请确保本机的jdk版本在1.8及以上)
 ```
 java -jar dbhelper-1.0.0.jar
 ```
